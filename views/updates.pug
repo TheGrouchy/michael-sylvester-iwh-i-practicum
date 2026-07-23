@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+        title= `${title}`
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="/css/style.css")
+    body
+        h1 Create a new pet
+        form(method="POST" action="/update-cobj")
+            label(for="name") Name
+            input#name(type="text" name="name" required)
+
+            label(for="species") Species
+            input#species(type="text" name="species" required)
+
+            label(for="bio") Bio
+            textarea#bio(name="bio" rows="3")
+
+            label(for="favorite_treat") Favorite treat
+            input#favorite_treat(type="text" name="favorite_treat")
+
+            button(type="submit") Create pet
+        a.back(href="/") Back to all pets

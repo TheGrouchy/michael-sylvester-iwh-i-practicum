@@ -1,0 +1,22 @@
+doctype html
+html
+    head
+        title= `${title}`
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="/css/style.css")
+    body
+        h1 Pets
+        a.add-link(href="/update-cobj") + Add a new pet
+        .cards
+            each record in data
+                .card
+                    h2.card__name= record.properties.name
+                    p.card__species
+                        strong Species:
+                        |  #{record.properties.species}
+                    p.card__bio
+                        strong Bio:
+                        |  #{record.properties.bio}
+                    p.card__treat
+                        strong Favorite treat:
+                        |  #{record.properties.favorite_treat}
