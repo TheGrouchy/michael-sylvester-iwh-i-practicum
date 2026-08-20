@@ -8,6 +8,10 @@
 
 ## Part 1: SEO Review — Homepage (5 Highest-Impact Improvements)
 
+> **Assignment:** Review one section of the website and identify up to 5 most important SEO or content improvements you would make. For each, briefly explain: What would you change? Why would you change it?
+>
+> **Answer:** I reviewed the homepage and would make five changes, in priority order: rewrite the H1 around the signature loan product, fix the title tag and OG metadata, add an FAQ block with schema, expose local-business and review structured data, and convert generic location links into keyword-rich internal links to the state pages.
+
 I focused on the homepage because it carries the most authority, ranks for the brand, and is the entry point for the highest-intent visitors. Recommendations are ordered by expected impact.
 
 ### 1. Rewrite the H1 around the actual product and its differentiators
@@ -45,6 +49,10 @@ I focused on the homepage because it carries the most authority, ranks for the b
 
 ## Part 2: Keyword Recommendations (Homepage)
 
+> **Assignment:** Identify 5 keywords/search terms you believe the Dollar Loan Center homepage should target.
+>
+> **Answer:** Signature loans; online installment loans; payday loan alternative; same day loans online; loans without a checking account.
+
 | # | Keyword | Intent / Why it fits |
 |---|---------|----------------------|
 | 1 | **signature loans** | DLC's core product and best differentiator; meaningfully less competitive than "personal loans" while carrying the same commercial intent. |
@@ -58,6 +66,10 @@ Geo-modified terms ("signature loans las vegas," "installment loans utah") belon
 ---
 
 ## Part 3: Homepage Optimization
+
+> **Assignment:** Provide your recommended SEO Title Tag, Meta Description, and H1; then write a blog or rewrite one we have (approximately 200–300 words).
+>
+> **Answer:** Title, meta, and H1 below; I rewrote the existing post "Same Day Loan Options for Emergency Cash Needs" (July 29, 2026) into the ~260-word version that follows.
 
 **SEO Title Tag** (62 characters):
 > Signature Loans Online | Cash in Minutes | Dollar Loan Center
@@ -99,5 +111,9 @@ Just three things: a valid photo ID, proof of income, and an active phone number
 ---
 
 ## Bonus: AI Search Visibility
+
+> **Assignment:** Briefly identify one opportunity for improving Dollar Loan Center's visibility in AI-driven search results such as Google AI Overviews or ChatGPT.
+>
+> **Answer:** Publish direct, quotable Q&A answers on the homepage and state pages, backed by FAQPage and FinancialService schema, so AI engines have citable answers tied to a verifiable entity.
 
 The single biggest opportunity: **publish direct, quotable answers with matching structured data.** AI Overviews and ChatGPT cite pages that answer a question in the first two sentences under a clear heading. DLC should add a concise Q&A block ("What is a signature loan? A signature loan is an installment loan that requires only your signature and proof of income — no collateral or checking account.") to the homepage and key state pages, marked up with `FAQPage` and `FinancialService` schema, and fix the `og:title="Home"` issue so citations display properly. Because DLC's licensing, Trustpilot rating, and 25+ year history are verifiable, consistent entity data makes them exactly the kind of source AI engines prefer to cite for regulated financial queries.
